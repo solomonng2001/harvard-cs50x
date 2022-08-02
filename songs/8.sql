@@ -1,0 +1,1 @@
+SELECT songs.name FROM songs WHERE UPPER(songs.name) LIKE '%FEAT.%';
