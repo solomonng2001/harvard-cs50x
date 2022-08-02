@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Multiplication Table</title>
+
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                let table = document.querySelector("table");
+                //let cell = table.querySelectorAll("td");
+                //let row = table.querySelectorAll("tr");
+                for (let i = 0; i < table.rows.length; i++) {
+                    for (let j = 0; j < table.rows.length; j++) {
+                        table.rows[i].cells[j].addEventListener('mouseover', function() {
+                            for (let k = 0; k < table.rows.length; k++) {
+                                table.rows[k].cells[j].style.backgroundColor = "#606060";
+                            }
+                            for (let l = 0; l < table.rows.length; l++) {
+                                table.rows[i].cells[l].style.backgroundColor = "#606060";
+                            }
+                            this.style.backgroundColor = "black";
+                            if (i > 0 && j > 0) {
+                                equation = document.querySelector('#equation');
+                                equation.innerHTML = `${i} X ${j} = ${i*j}`;
+                            }
+                        });
+                    }
+                }
+                for (let i = 0; i < table.rows.length; i++) {
+                    for (let j = 0; j < table.rows.length; j++) {
+                        table.rows[i].cells[j].addEventListener('mouseout', function() {
+                            for (let k = 0; k < table.rows.length; k++) {
+                                table.rows[k].cells[j].style.backgroundColor = "#282a35";
+                            }
+                            for (let l = 0; l < table.rows.length; l++) {
+                                table.rows[i].cells[l].style.backgroundColor = "#282a35";
+                            }
+                            equation = document.querySelector('#equation');
+                            equation.innerHTML = '';
+                        });
+                    }
+                }
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <!-- Page title -->
+        <div id="pageheader">
+            <h1 class="heading">Multiplication Table</h1>
+            <h5 class="heading">Welcome and Happy Learning!</h5>
+        </div>
+
+        <!-- Button tab to toggle betweeen pages -->
+        <div id="selecttab">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html">
+                        <button class="floatleft">
+                            <!-- Table icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
+                              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+                            </svg>
+                            Table
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md-auto"></div>
+                <div class="col col-lg-2">
+                    <a href="pedigogy.html">
+                        <button class="floatright">Pedigogy</button>
+                    </a>
+                </div>
+                <div class="col col-lg-2">
+                    <a href="instructions.html">
+                        <button class="floatright">Instructions</button>
+                    </a>
+                </div>
+                <div class="col col-lg-2">
+                    <a href="testmyself.html">
+                        <button class="floatright">Test Myself</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mathematical equation pop up when mouse hover over multiplication table -->
+        <div id='equation-container'>
+            <h1 id="equation"></h1>
+        </div>
+
+        <!-- Multiplication table -->
+        <div id="table-container">
+            <table role="button" class='center'>
+                <tr>
+                    <th class='top-header left-header'></th>
+                    <th class='top-header'>1</th>
+                    <th class='top-header'>2</th>
+                    <th class='top-header'>3</th>
+                    <th class='top-header'>4</th>
+                    <th class='top-header'>5</th>
+                    <th class='top-header'>6</th>
+                    <th class='top-header'>7</th>
+                    <th class='top-header'>8</th>
+                    <th class='top-header'>9</th>
+                    <th class='top-header'>10</th>
+                    <th class='top-header'>11</th>
+                    <th class='top-header'>12</th>
+                </tr>
+                <tr>
+                    <th class='left-header'>1</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>2</th>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>16</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>22</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>3</th>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>27</td>
+                    <td>30</td>
+                    <td>33</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>4</th>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>20</td>
+                    <td>24</td>
+                    <td>28</td>
+                    <td>32</td>
+                    <td>36</td>
+                    <td>40</td>
+                    <td>44</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>5</th>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>50</td>
+                    <td>55</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>6</th>
+                    <td>6</td>
+                    <td>12</td>
+                    <td>18</td>
+                    <td>24</td>
+                    <td>30</td>
+                    <td>36</td>
+                    <td>42</td>
+                    <td>48</td>
+                    <td>54</td>
+                    <td>60</td>
+                    <td>66</td>
+                    <td>72</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>7</th>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>21</td>
+                    <td>28</td>
+                    <td>35</td>
+                    <td>42</td>
+                    <td>49</td>
+                    <td>56</td>
+                    <td>63</td>
+                    <td>70</td>
+                    <td>77</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>8</th>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>24</td>
+                    <td>32</td>
+                    <td>40</td>
+                    <td>48</td>
+                    <td>56</td>
+                    <td>64</td>
+                    <td>72</td>
+                    <td>80</td>
+                    <td>88</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>9</th>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    <td>36</td>
+                    <td>45</td>
+                    <td>54</td>
+                    <td>63</td>
+                    <td>72</td>
+                    <td>81</td>
+                    <td>90</td>
+                    <td>99</td>
+                    <td>108</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>10</th>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>110</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <th class='left-header'>11</th>
+                    <td>11</td>
+                    <td>22</td>
+                    <td>33</td>
+                    <td>44</td>
+                    <td>55</td>
+                    <td>66</td>
+                    <td>77</td>
+                    <td>88</td>
+                    <td>99</td>
+                    <td>110</td>
+                    <td>121</td>
+                    <td>132</td>
+                    </tr>
+                <tr>
+                    <th class='left-header'>12</th>
+                    <td>12</td>
+                    <td>24</td>
+                    <td>36</td>
+                    <td>48</td>
+                    <td>60</td>
+                    <td>72</td>
+                    <td>84</td>
+                    <td>96</td>
+                    <td>108</td>
+                    <td>120</td>
+                    <td>132</td>
+                    <td>144</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>
