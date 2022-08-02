@@ -1,1 +1,0 @@
-SELECT birth FROM people WHERE UPPER(TRIM(name)) = 'EMMA STONE';
