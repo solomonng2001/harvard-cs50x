@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <div class="d-flex justify-content-center">
+        <form action="/login" method="post" class="col-sm-5">
+            <div class="form-floating mb-3">
+              <input name="username" type="text" class="form-control" id="floatingInput" placeholder="Username" autocomplete="off" autofocus>
+              <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Log In</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
