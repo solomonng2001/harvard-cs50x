@@ -39,3 +39,5 @@ Complete the implementation of `scrabble.c`, such that it determines the winner
     -   For example, `!` is worth `0` points while `A` and `a` are both worth `1` point.
     -   Though Scrabble rules normally require that a word be in the dictionary, no need to check for that in this problem!
 -   In `main()`, your program should print, depending on the players' scores, `Player 1 wins!`, `Player 2 wins!`, or `Tie!`.
+
+<sub>*Assignment description taken from https://cs50.harvard.edu/x/2021/*</sub>
