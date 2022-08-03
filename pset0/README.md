@@ -29,4 +29,4 @@ Alright, off you go. Make us proud!
 
 Once finished with your project, select File > Save now one last time. Then select File > Save to your computer and keep that file so that you can submit it. If prompted by your computer to Open or Save the file, be sure to Save it.
 
-*taken from [https://cs50.harvard.edu/x/2021/]*
+*taken from https://cs50.harvard.edu/x/2021/*
