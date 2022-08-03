@@ -54,4 +54,3 @@ my course solutions and projects:
     * [Hawker Culture](https://github.com/solomonng2001/harvard-cs50x/tree/main/final%20project)
 
 ![Certificate](https://github.com/solomonng2001/harvard-cs50x/blob/main/certificates/CS50x%20Letter%20PNG%20Cert.png)
-![Certificate](https://github.com/solomonng2001/harvard-cs50x/blob/main/certificates/CS50x%20Verified%20EDX%20Cert.pdf)
