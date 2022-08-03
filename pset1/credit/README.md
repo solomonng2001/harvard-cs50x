@@ -77,3 +77,5 @@ INVALID
 Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) Here are a [few card numbers](https://developer.paypal.com/docs/payflow/payflow-pro/payflow-pro-testing/#credit-card-numbers-for-testing) that PayPal recommends for testing.
 
 If your program behaves incorrectly on some inputs (or doesn't compile at all), time to debug!
+
+<sub>*Assignment description taken from https://cs50.harvard.edu/x/2021/*</sub>
