@@ -53,4 +53,5 @@ my course solutions and projects:
 * Final Project: Flask-based Blogging Web Application
     * [Hawker Culture](https://github.com/solomonng2001/harvard-cs50x/tree/main/final%20project)
 
-![Certificate](https://github.com/solomonng2001/harvard-cs50x/blob/main/CS50x%20Letter%20PNG%20Cert.png)
+![Certificate](/certificates/CS50x Letter PNG Cert.png)
+![Certificate](/certificates/CS50x Verified EDX Cert.pdf)
