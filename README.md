@@ -52,4 +52,5 @@ my course solutions and projects:
   * [Lab 10: Ethics](https://github.com/solomonng2001/harvard-cs50x/tree/main/pset10)
 * Final Project: Flask-based Blogging Web Application
     * [Hawker Culture](https://github.com/solomonng2001/harvard-cs50x/tree/main/final%20project)
+
 ![Certificate](https://github.com/solomonng2001/harvard-cs50x/blob/main/CS50x%20Letter%20PNG%20Cert.png)
