@@ -1,8 +1,6 @@
 [Lab 1: Population Growth](https://cs50.harvard.edu/x/2021/labs/1/population/#lab-1-population-growth)
 ======================================================================================================
 
-You are welcome to collaborate with one or two classmates on this lab, though it is expected that every student in any such group contribute equally to the lab.
-
 Determine how long it takes for a population to reach a particular size.
 
 ```
