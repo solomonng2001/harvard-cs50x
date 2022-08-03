@@ -1,5 +1,5 @@
 # harvard-cs50x
-This repository was created to document my progression throughout [Havard's CS50x Introduction to Computer Science](https://cs50.harvard.edu/x/2021/)'s 12 weeks-long course. 
+This repository was created to document my progression throughout the 12 weeks-long [Havard's CS50x Introduction to Computer Science](https://cs50.harvard.edu/x/2021/) course in 2021.
 
 Takeaways from this awesome class:
 * Abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming
@@ -52,3 +52,4 @@ my course solutions and projects:
   * [Lab 10: Ethics](https://github.com/solomonng2001/harvard-cs50x/tree/main/pset10)
 * Final Project: Flask-based Blogging Web Application
     * [Hawker Culture](https://github.com/solomonng2001/harvard-cs50x/tree/main/final%20project)
+![Certificate](https://github.com/solomonng2001/harvard-cs50x/blob/main/CS50x%20Letter%20PNG%20Cert.png)
