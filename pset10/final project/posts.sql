@@ -1,1 +1,0 @@
-CREATE TABLE posts (id INTEGER, user_id INTEGER NOT NULL, title TEXT NOT NULL, photo_id TEXT, tags TEXT NOT NULL, date_time TEXT NOT NULL, address TEXT NOT NULL, review TEXT NOT NULL, PRIMARY KEY(id), FOREIGN KEY(user_id) REFERENCES users(id));
