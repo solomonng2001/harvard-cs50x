@@ -18,7 +18,7 @@ Well, DNA is really just a sequence of molecules called nucleotides, arranged in
 
 One place where DNA tends to have high genetic diversity is in Short Tandem Repeats (STRs). An STR is a short sequence of DNA bases that tends to repeat consecutively numerous times at specific locations inside of a person's DNA. The number of times any particular STR repeats varies a lot among individuals. In the DNA samples below, for example, Alice has the STR `AGAT` repeated four times in her DNA, while Bob has the same STR repeated five times.
 
-![Sample STRs](https://cs50.harvard.edu/x/2021/psets/6/dna/strs.png)
+<img width="635" alt="Screenshot 2022-08-04 at 12 36 48 PM" src="https://user-images.githubusercontent.com/66112309/182764290-502020cc-0b1b-43e5-bee1-3e460dfef889.png">
 
 Using multiple STRs, rather than just one, can improve the accuracy of DNA profiling. If the probability that two people have the same number of repeats for a single STR is 5%, and the analyst looks at 10 different STRs, then the probability that two DNA samples match purely by chance is about 1 in 1 quadrillion (assuming all STRs are independent of each other). So if two DNA samples match in the number of repeats for each of the STRs, the analyst can be pretty confident they came from the same person. CODIS, The FBI's [DNA database](https://www.fbi.gov/services/laboratory/biometric-analysis/codis/codis-and-ndis-fact-sheet), uses 20 different STRs as part of its DNA profiling process.
 
