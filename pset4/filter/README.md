@@ -87,21 +87,6 @@ Using these kernels, we can generate a `Gx` and `Gy` value for each of the r
 
 And what about handling pixels at the edge, or in the corner of the image? There are many ways to handle pixels at the edge, but for the purposes of this problem, we'll ask you to treat the image as if there was a 1 pixel solid black border around the edge of the image: therefore, trying to access a pixel past the edge of the image should be treated as a solid black pixel (values of 0 for each of red, green, and blue). This will effectively ignore those pixels from our calculations of `Gx` and `Gy`.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/psets/4/filter/more/#getting-started)
----------------------------------------------------------------------------------------
-
-Here's how to download this problem's "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io/) and then, in a terminal window, execute each of the below.
-
--   Execute `cd ~` (or simply `cd` with no arguments) to ensure that you're in your home directory.
--   Execute `mkdir pset4` to make (i.e., create) a directory called `pset4`.
--   Execute `cd pset4` to change into (i.e., open) that directory.
--   Execute `wget https://cdn.cs50.net/2020/fall/psets/4/filter/more/filter.zip` to download a (compressed) ZIP file with this problem's distribution.
--   Execute `unzip filter.zip` to uncompress that file.
--   Execute `rm filter.zip` followed by `yes` or `y` to delete that ZIP file.
--   Execute `ls`. You should see a directory called `filter`, which was inside of that ZIP file.
--   Execute `cd filter` to change into that directory.
--   Execute `ls`. You should see this problem's distribution, including `bmp.h`, `filter.c`, `helpers.h`, `helpers.c`, and `Makefile`. You'll also see a directory called `images`, with some sample Bitmap images.
-
 [Understanding](https://cs50.harvard.edu/x/2021/psets/4/filter/more/#understanding)
 -----------------------------------------------------------------------------------
 
