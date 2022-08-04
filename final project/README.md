@@ -1,6 +1,7 @@
 # Final Project: Hawker Culture
 
-#### Video Demo:  [<img src="https://i9.ytimg.com/vi/HGdnFw2DdqU/mq1.jpg?sqp=CPymrZcG&rs=AOn4CLDYRYlxieXHXqoBPC8EamIDQEOuyg" width="50%">](https://youtu.be/HGdnFw2DdqU)
+#### Video Demo:
+[<img src="https://i9.ytimg.com/vi/HGdnFw2DdqU/mq1.jpg?sqp=CPymrZcG&rs=AOn4CLDYRYlxieXHXqoBPC8EamIDQEOuyg" width="50%">](https://youtu.be/HGdnFw2DdqU)
 #### Description: A hawker food blogging website for Singaporeans
 
 ## HTML Templates & Routes in hawkerculture.py
