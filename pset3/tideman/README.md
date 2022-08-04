@@ -1,5 +1,4 @@
 [Tideman](https://cs50.harvard.edu/x/2021/psets/3/tideman/#tideman)
-
 ===================================================================
 
 Implement a program that runs a Tideman election, per the below.
@@ -107,22 +106,6 @@ Put more formally, the Tideman voting method consists of three parts:
 -   Lock: Starting with the strongest pair, go through the pairs of candidates in order and "lock in" each pair to the candidate graph, so long as locking in that pair does not create a cycle in the graph.
 
 Once the graph is complete, the source of the graph (the one with no edges pointing towards it) is the winner!
-
-[Getting Started](https://cs50.harvard.edu/x/2021/psets/3/tideman/#getting-started)
-
------------------------------------------------------------------------------------
-
-Here's how to download this problem's "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://ide.cs50.io/) and then, in a terminal window, execute each of the below.
-
--   Navigate to your `pset3` directory that should already exist.
-
--   Execute `mkdir tideman` to make (i.e., create) a directory called `tideman` in your `pset3` directory.
-
--   Execute `cd tideman` to change into (i.e., open) that directory.
-
--   Execute `wget https://cdn.cs50.net/2020/fall/psets/3/tideman/tideman.c` to download this problem's distribution code.
-
--   Execute `ls`. You should see this problem's distribution code, in a file called `tideman.c`.
 
 [Understanding](https://cs50.harvard.edu/x/2021/psets/3/tideman/#understanding)
 
