@@ -1,4 +1,4 @@
-# Hawker Culture
+# Final Project: Hawker Culture
 #### Video Demo:  <https://youtu.be/HGdnFw2DdqU>
 #### Description: A hawker food blogging website for Singaporeans
 
