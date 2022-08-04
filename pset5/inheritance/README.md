@@ -1,10 +1,6 @@
 [Lab 5: Inheritance](https://cs50.harvard.edu/x/2021/labs/5/#lab-5-inheritance)
 ===============================================================================
 
-You are welcome to collaborate with one or two classmates on this lab, though it is expected that every student in any such group contribute equally to the lab.
-
-GitHub now requires that you use SSH or a personal access token instead of a password to log in, but you can still use `check50` and `submit50`! See [cs50.ly/github](https://cs50.ly/github) for instructions if you haven't already!
-
 Simulate the inheritance of blood types for each member of a family.
 
 ```
@@ -18,11 +14,6 @@ Generation 0, blood type OO
         Generation 2, blood type BO
 
 ```
-
-[When to Do It](https://cs50.harvard.edu/x/2021/labs/5/#when-to-do-it)
-----------------------------------------------------------------------
-
-By Saturday, January 1, 2022, 12:59 PM GMT+8[](https://time.cs50.io/2021-12-31T23:59:00-05:00).
 
 [Background](https://cs50.harvard.edu/x/2021/labs/5/#background)
 ----------------------------------------------------------------
