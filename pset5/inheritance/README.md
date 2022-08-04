@@ -22,11 +22,6 @@ A person's blood type is determined by two alleles (i.e., different forms of a g
 
 For example, if one parent has blood type AO and the other parent has blood type BB, then the child's possible blood types would be AB and OB, depending on which allele is received from each parent. Similarly, if one parent has blood type AO and the other OB, then the child's possible blood types would be AO, OB, AB, and OO.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/labs/5/#getting-started)
---------------------------------------------------------------------------
-
-Create a new directory in your IDE called `lab5`. In that directory, execute `wget https://cdn.cs50.net/2020/fall/labs/5/inheritance.c` to download the distribution code for this project.
-
 [Understanding](https://cs50.harvard.edu/x/2021/labs/5/#understanding)
 ----------------------------------------------------------------------
 
@@ -60,23 +55,5 @@ The `free_family` function should accept as input a pointer to a `person`, fr
 
 -   Since this is a recursive function, you should first handle the base case. If the input to the function is `NULL`, then there's nothing to free, so your function can return immediately.
 -   Otherwise, you should recursively `free` both of the person's parents before `free`ing the child.
-
-### [How to Test Your Code](https://cs50.harvard.edu/x/2021/labs/5/#how-to-test-your-code)
-
-Upon running `./inheritance`, your program should adhere to the rules described in the background. The child should have two alleles, one from each parent. The parents should each have two alleles, one from each of their parents.
-
-For example, in the example below, the child in Generation 0 received an O allele from both Generation 1 parents. The first parent received an A from the first grandparent and a O from the second grandparent. Similarly, the second parent received an O and a B from their grandparents.
-
-```
-$ ./inheritance
-Generation 0, blood type OO
-    Generation 1, blood type AO
-        Generation 2, blood type OA
-        Generation 2, blood type BO
-    Generation 1, blood type OB
-        Generation 2, blood type AO
-        Generation 2, blood type BO
-
-```
 
 <sub>*Assignment description taken from https://cs50.harvard.edu/x/2021/*</sub>
