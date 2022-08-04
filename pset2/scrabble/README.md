@@ -20,12 +20,6 @@ In the game of [Scrabble](https://scrabble.hasbro.com/en-us/rules), players cre
 
 For example, if we wanted to score the word `Code`, we would note that in general Scrabble rules, the `C` is worth `3` points, the `o` is worth `1` point, the `d` is worth `2`points, and the `e` is worth `1` point. Summing these, we get that `Code` is worth `3 + 1 + 2 + 1 = 7` points.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/labs/2/#getting-started)
---------------------------------------------------------------------------
-
--   Copy the "distribution code" (i.e., starter code) from [cdn.cs50.net/2020/fall/labs/2/scrabble.c](https://cdn.cs50.net/2020/fall/labs/2/scrabble.c) into a new file in your IDE called `scrabble.c`.
-    -   You can also download the distribution code by running the command `wget https://cdn.cs50.net/2020/fall/labs/2/scrabble.c` in CS50 IDE.
-
 [Implementation Details](https://cs50.harvard.edu/x/2021/labs/2/#implementation-details)
 ----------------------------------------------------------------------------------------
 
