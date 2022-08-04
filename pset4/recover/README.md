@@ -32,19 +32,6 @@ Realize, of course, that JPEGs can span contiguous blocks. Otherwise, no JPEG co
 
 Now, I only have one memory card, but there are a lot of you! And so I've gone ahead and created a "forensic image" of the card, storing its contents, byte after byte, in a file called `card.raw`. So that you don't waste time iterating over millions of 0s unnecessarily, I've only imaged the first few megabytes of the memory card. But you should ultimately find that the image contains 50 JPEGs.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/psets/4/recover/#getting-started)
------------------------------------------------------------------------------------
-
-Here's how to download this problem's "distribution code" (i.e., starter code) into your own CS50 IDE. Log into [CS50 IDE](https://cs50.io/) and then, in a terminal window, execute each of the below.
-
-1.  Navigate to your `pset4` directory that should already exist.
-2.  Execute `wget http://cdn.cs50.net/2020/fall/psets/4/recover/recover.zip` to download a (compressed) ZIP file with this problem's distribution.
-3.  Execute `unzip recover.zip` to uncompress that file.
-4.  Execute `rm recover.zip` followed by `yes` or `y` to delete that ZIP file.
-5.  Execute `ls`. You should see a directory called `recover`, which was inside of that ZIP file.
-6.  Execute `cd recover` to change into that directory.
-7.  Execute `ls`. You should see this problem's distribution, including `card.raw` and `recover.c`.
-
 [Specification](https://cs50.harvard.edu/x/2021/psets/4/recover/#specification)
 -------------------------------------------------------------------------------
 
