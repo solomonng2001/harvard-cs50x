@@ -12,14 +12,6 @@ Recall from lecture that we saw a few algorithms for sorting a sequence of numbe
 -   Bubble sort compares pairs of adjacent values one at a time and swaps them if they are in the incorrect order. This continues until the list is sorted.
 -   Merge sort recursively divides the list into two repeatedly and then merges the smaller lists back into a larger one in the correct order.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/labs/3/#getting-started)
---------------------------------------------------------------------------
-
-1.  Log into [ide.cs50.io](https://ide.cs50.io/) using your GitHub account.
-2.  In your terminal window, run `wget https://cdn.cs50.net/2020/fall/labs/3/lab3.zip` to download a Zip file of the lab distribution code.
-3.  In your terminal window, run `unzip lab3.zip` to unzip (i.e., decompress) that Zip file.
-4.  In your terminal window, run `cd lab3` to change directories into your `lab3`directory.
-
 [Instructions](https://cs50.harvard.edu/x/2021/labs/3/#instructions)
 --------------------------------------------------------------------
 
