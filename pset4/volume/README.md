@@ -23,14 +23,6 @@ So far, we've seen a number of different types in C, including `int`, `bool`,�
 -   `uint8_t` is a type that stores an 8-bit unsigned (i.e., not negative) integer. We can treat each byte of a WAV file's header as a `uint8_t` value.
 -   `int16_t` is a type that stores a 16-bit signed (i.e., positive or negative) integer. We can treat each sample of audio in a WAV file as an `int16_t` value.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/labs/4/#getting-started)
---------------------------------------------------------------------------
-
-1.  Log into [ide.cs50.io](https://ide.cs50.io/) using your GitHub account.
-2.  In your terminal window, run `wget https://cdn.cs50.net/2020/fall/labs/4/lab4.zip` to download a Zip file of the lab distribution code.
-3.  In your terminal window, run `unzip lab4.zip` to unzip (i.e., decompress) that Zip file.
-4.  In your terminal window, run `cd lab4` to change directories into your `lab4`directory.
-
 [Implementation Details](https://cs50.harvard.edu/x/2021/labs/4/#implementation-details)
 ----------------------------------------------------------------------------------------
 
