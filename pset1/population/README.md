@@ -20,11 +20,6 @@ For example, if we were to start with `n = 1200` llamas, then in the first yea
 
 To try another example, if we were to start with `n = 1000` llamas, at the end of the year, we would have `1000 / 3 = 333.33` new llamas. We can't have a decimal portion of a llama, though, so we'll truncate the decimal to get `333` new llamas born. `1000 / 4 = 250` llamas will pass away, so we'll end up with a total of `1000 + 333 - 250 = 1083`llamas at the end of the year.
 
-[Getting Started](https://cs50.harvard.edu/x/2021/labs/1/population/#getting-started)
--------------------------------------------------------------------------------------
-
--   Copy the "distribution code" (i.e., starter code) from [cdn.cs50.net/2020/fall/labs/1/population.c](https://cdn.cs50.net/2020/fall/labs/1/population.c) into a new file in your IDE called `population.c`.
-
 [Implementation Details](https://cs50.harvard.edu/x/2021/labs/1/population/#implementation-details)
 ---------------------------------------------------------------------------------------------------
 
