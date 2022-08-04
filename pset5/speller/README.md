@@ -33,23 +33,6 @@ TIME IN TOTAL:
 
 ### [Downloading](https://cs50.harvard.edu/x/2021/psets/5/speller/#downloading)
 
-Log into [CS50 IDE](https://ide.cs50.io/) and then, in a terminal window, execute each of the below.
-
--   Execute `cd ~/` (or simply `cd` with no arguments) to ensure that you're in your home directory.
--   Execute `mkdir pset5` to make (i.e., create) a directory called `pset5`.
--   Execute `cd pset5` to change into (i.e., open) that directory.
--   Execute `wget http://cdn.cs50.net/2021/spring/psets/5/speller/speller.zip` to download a (compressed) ZIP file with this problem's distribution.
--   Execute `unzip speller.zip` to uncompress that file.
--   Execute `rm speller.zip` followed by `yes` or `y` to delete that ZIP file.
--   Execute `ls`. You should see a directory called `speller`, which was inside of that ZIP file.
--   Execute `cd speller` to change into that directory.
--   Execute `ls`. You should see this problem's distribution:
-
-```
-dictionaries/  dictionary.c  dictionary.h  keys/  Makefile  speller.c  texts/
-
-```
-
 ### [Understanding](https://cs50.harvard.edu/x/2021/psets/5/speller/#understanding)
 
 Theoretically, on input of size *n*, an algorithm with a running time of *n* is "asymptotically equivalent," in terms of *O*, to an algorithm with a running time of *2n*. Indeed, when describing the running time of an algorithm, we typically focus on the dominant (i.e., most impactful) term (i.e., *n* in this case, since *n* could be much larger than 2). In the real world, though, the fact of the matter is that *2n* feels twice as slow as *n*.
