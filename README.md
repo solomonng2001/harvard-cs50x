@@ -10,7 +10,7 @@ Takeaways from this awesome class:
     * Extensive library of modules and APIs
 
 Below is a table of contents for easy navigation through
-my course solutions and projects:
+my course solutions and projects (assignment description included in individual README documentations):
 * Problem Set 1: C
   * [Lab 1: Hello](https://github.com/solomonng2001/harvard-cs50x/tree/main/pset1/hello)
   * [Lab 1: Population](https://github.com/solomonng2001/harvard-cs50x/tree/main/pset1/population)
